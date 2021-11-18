@@ -31,7 +31,7 @@ Pull requests are always welcome. For major changes, please open an issue first 
 
 ## Contact
 
-Uchenna Ibe- [code.sumax@gmail.com](mailto:uchennaibe95@gmail.com)
+Uchenna Ibe- [uchennaibe95@gmail.com](mailto:uchennaibe95@gmail.com)
 
 <!-- Youtube Channel: [https://www.youtube.com/c/BackbenchCoder](https://www.youtube.com/c/BackbenchCoder) -->
 
