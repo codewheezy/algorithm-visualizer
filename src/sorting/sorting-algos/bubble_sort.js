@@ -16,7 +16,7 @@ const bubbleSort = (unsortedArray, high, animations) => {
                 swapped = true;
             }
         }
-    } while (swapped == true)
+    } while (swapped === true)
     return unsortedArray
 }
 
