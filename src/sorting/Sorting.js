@@ -27,8 +27,8 @@ const Sorting = () => {
     //const [active, setActive] = useState('');
     const [maxSize, setMaxSize] = useState(null)
     const [notified, setNotified] = useState(false)
-    const [currentSort, setCurrentSort] = useState(null)
-    const [animationSpeed, setAnimationSpeed] = useState(100)
+    const [currentSort] = useState(null)
+    const [animationSpeed] = useState(100)
     var timer;
 
     useEffect(() => {
@@ -38,7 +38,7 @@ const Sorting = () => {
             setNotified(true)
         }
         resetArray(arraySize)
-    }, [arraySize, maxSize])
+    }, [arraySize, maxSize, notified])
     const [width] = useWindowSize()
     if (width < 500 && maxSize !== 35) {
         setArraySize(20)

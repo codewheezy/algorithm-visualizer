@@ -3,7 +3,7 @@ import './landing.css'
 import { motion } from 'framer-motion'
 import visualData from './../assets/15.png'
 import coder from './../assets/blogging 1.png'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { variants } from '../framer motion/variants';
 const Landing = () => {

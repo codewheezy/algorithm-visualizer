@@ -74,7 +74,7 @@ const PathFinder = () => {
         }
         setNotified(true)
         setMainGrid(createInitialGrid())
-    }, [COLS])
+    }, [COLS, notified])
     const [width] = useWindowSize()
     if (width < 500 && COLS !== 15) {
         SET_COLS(15)
