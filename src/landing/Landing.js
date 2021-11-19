@@ -45,7 +45,7 @@ const Landing = () => {
 
                 </Col>
                 <Col xs={12} md={6} className="landing__right">
-                    <a href="https://sumitdey.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://uchenna-portfolio-weld.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <button className="landing__buttons-portfolio">
 
                             Check out my portfolio here</button>
